@@ -1,0 +1,62 @@
+.data_grid {
+  height: 500px !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.header {
+  margin: 1rem auto;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.errorMsg,
+.loading {
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.errorMsg {
+  color: #d86161;
+}
+
+.padding {
+  padding: 1em;
+}
+
+.logo {
+  width: 50px;
+}
+
+@media only screen and (min-width: 900px) {
+  .input_align_end {
+    text-align: -webkit-right;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .input_align_end {
+    text-align: center;
+  }
+  .input_align_center {
+    text-align: center;
+  }
+}
+
+.input {
+  width: 300px;
+}
+
+.checkbox {
+  text-align: center;
+}
